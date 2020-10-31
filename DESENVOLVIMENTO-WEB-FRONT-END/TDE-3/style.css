@@ -1,0 +1,163 @@
+html,body{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+
+    /* theme colors */
+    --text-gray: #3f4954;
+    --black: #000000;
+    --white: #ffffff;
+    --blue-light: #2575fc;
+    --blue-dark: #6a11cb;
+
+}
+
+/*       Global Classes       */
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: var(--white);
+    text-align: center;
+}
+
+h2{
+    font-family: 'Nuni',sans-serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: var(--white);
+    text-align: center;
+}
+
+h3{
+    font-family: 'Arial',sans-serif;
+    font-weight: bold;
+    color: var(--blue-light);
+    text-align: center;
+}
+
+p{
+    font-family: 'Nuni',sans-serif;
+    font-weight: normal;
+    font-size: 1.3rem;
+    color: var(--text-gray);
+    text-align: center;
+    margin: .5rem;
+}
+
+a{
+    color:var(--blue-dark);
+    text-decoration: none;
+}
+
+/*   x   Global Classes   x   */
+
+
+/*       All Page       */
+
+.page-wrapper{
+    position: relative;
+    background-image: url("Abract01.png");
+    background-size:contain;
+    background-repeat: repeat; 
+    background-position: left;
+}
+
+/*    x   All Page   x    */
+
+
+/*       Page Top       */
+
+.intro{
+    min-height: 110vh;
+    padding: 0 2rem;
+    background-image: url("backg.png");
+    background-size:contain;
+    background-repeat: no-repeat; 
+    text-align: center;
+}
+
+header h1{padding-top: 12rem;}
+
+header h1,h2{margin: 0%;}
+
+header h1,.summary{
+    display: inline-block;
+    position: relative;
+    padding-bottom: .2rem;
+    text-align: center;
+}
+
+.summary{padding-top: 30rem;}
+
+/*   x   Page Top   x   */
+
+
+/*        Main Page       */
+
+/*---------------------------*/
+
+/*    x    Main Page    x   */
+
+
+/*       SideBar       */
+
+.sidebar{display:none;}
+
+.sidebar h3{display:none;}
+
+.sidebar ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+/*   x    SideBar    x   */
+
+
+/*        Footer       */
+
+footer{display:none;}
+
+/*   x    Footer    x   */
+
+
+/*           Viewport menor ou igual a 1130px           */
+
+@media only screen and (max-width: 1130px){
+    .summary{padding-top: 15rem;}
+}
+
+/*     x      Viewport menor ou igual a 1130px     x      */
+
+
+/*           Viewport menor ou igual a 750px           */
+
+@media only screen and (max-width: 750px){
+    .preamble,.main,.participation,.benefits,.requirements{display: none;}
+
+    header h1{padding-top: 5rem;}
+
+    .summary{padding-top: 10rem;padding-bottom: 0;}
+
+    .sidebar{display: initial;text-align: center;}
+}
+
+/*     x     Viewport menor ou igual a 750px     x     */
+
+
+/*           Viewport menor ou igual a 520px           */
+
+@media only screen and (max-width: 520px){
+    .preamble,.main,.participation,.benefits,.requirements{display: none;}
+
+    header h1{padding-top: 1.5rem;}
+
+    .summary{padding-top: 4rem;padding-bottom: 0;}
+
+    .sidebar{display: initial;text-align: center;}
+}
+
+/*     x      Viewport menor ou igual a 520px    x       */
