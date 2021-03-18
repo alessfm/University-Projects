@@ -1,14 +1,14 @@
 <?php 
 // Média = (0.4 × AVP1) + (0.4 × AVP2) + [0.05 × (TDE1 + TDE2 + TDE3 + TDE4)]
 
-$nota1 = $_POST["avp1"] ?? 0;
-$nota2 = $_POST["avp2"] ?? 0;
-$nota3 = $_POST["tde1"] ?? 0;
-$nota4 = $_POST["tde2"] ?? 0;
-$nota5 = $_POST["tde3"] ?? 0;
-$nota6 = $_POST["tde4"] ?? 0;
+$nota1 = floatval($_POST["avp1"]);
+$nota2 = floatval($_POST["avp2"]);
+$nota3 = floatval($_POST["tde1"]);
+$nota4 = floatval($_POST["tde2"]);
+$nota5 = floatval($_POST["tde3"]);
+$nota6 = floatval($_POST["tde4"]);
 
-$media = (0.4 * $nota1) + (0.4 * $nota2) + (0.05 * ($nota3 + $nota4 + $nota5 + $nota6)) ?? 0;
+$media = (0.4 * $nota1) + (0.4 * $nota2) + (0.05 * ($nota3 + $nota4 + $nota5 + $nota6));
 $fala = "";
 
 if ($media >= 7){
@@ -61,7 +61,7 @@ if ($media >= 7){
     </form>
     </div>
     <div>
-        <!-- <h4><?= $fala ?></h4> -->
+        <h4><?= $fala ?></h4>
     </div>
 </body>
 </html>
