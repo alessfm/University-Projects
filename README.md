@@ -3,7 +3,7 @@
 
 ***
 
-## 📕 Desenvolvimento Web Back-end
+## 📗 Desenvolvimento Web Back-end
 ### Atividade Prática PHP
 Create a calculator to calculate your grade in the course.
 
