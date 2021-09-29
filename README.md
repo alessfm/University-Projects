@@ -1,21 +1,33 @@
-# 📚 University Projects
-#### Works made on college [UniFAP](https://www.fapce.edu.br/index.html)
+<div align="center">
+  
+  <p>📚<code>University Projects</code><p>
+
+  Works made on college [UniFAP](https://www.fapce.edu.br/index.html)
+</div>
 
 ***
 
-## 📗 Desenvolvimento Web Back-end
-### Atividade Prática PHP
-Create a calculator to calculate your grade in the course.
+**📗 Desenvolvimento Web Back-end**
+---
 
-## 📕 Desenvolvimento Web Front-end
-### Trabalho Discente Efetivo N°3
-Use CSS to modify the website [CSS Zen Garden](http://www.csszengarden.com) with creativity.
+Pequeno arquivo com calculadora de notas do curso.
+<br><br>
 
-### Avaliação
-Use JS to fix a record player and save Christmas, here it goes the [Link](https://codepen.io/11-alexs/pen/MWjrRMy). The credits from HTMl and CSS files, all goes to [Mitali](https://code.sololearn.com/WueOp7TSMqV5/#html)
+**📕 Desenvolvimento Web Front-end**
+---
 
-PS.: Codepen doesn't let me add the songs or the pictures, but you can check all files here on [GitHub](https://github.com/11-AleXS/University-Projects/tree/master/DESENVOLVIMENTO-WEB-FRONT-END/Vitrola-natalina-em-JS)
+Trabalho Discente Efetivo N°3
 
-## 📘 Progamação Procedural e Estrutura de Dados
-### Trabalho Discente Efetivo N°4
-Solve problems on the [Uri Online Judge](https://www.urionlinejudge.com.br/judge/pt/login) website from Structure and Libraries (Number 4).
+- Use CSS para modificar o wesbite [CSS Zen Garden](http://www.csszengarden.com) com criatividade.
+
+Avaliação
+- Use JS para consertar um tocador de músicas e salvar o Natal! Veja o [link](https://codepen.io/11-alexs/pen/MWjrRMy) no Codepen. Todos os créditos pelo HTML e CSS vão para o [Mitali](https://code.sololearn.com/WueOp7TSMqV5/#html). Obrigado!
+
+PS.: O Codepen não permite o uso de músicas/imagens pela lógica de negócio, mas os arquivos deles estão aqui no [GitHub](https://github.com/11-AleXS/University-Projects/tree/master/DESENVOLVIMENTO-WEB-FRONT-END/Vitrola-natalina-em-JS). Basta abrir o HTML e se divertir!
+<br><br>
+
+**📘 Progamação Procedural e Estrutura de Dados**
+---
+
+Trabalho Discente Efetivo N°4
+- Resolva questões no [Uri Online Judge](https://www.urionlinejudge.com.br/judge/pt/login) de Estruturas e Bibliotecas (Número 4).
