@@ -12,7 +12,7 @@ Create a calculator to calculate your grade in the course.
 Use CSS to modify the website [CSS Zen Garden](http://www.csszengarden.com) with creativity.
 
 ### Avaliação
-Use JS to fix a record player and save Christmas, here it goes the [Link](https://codepen.io/11-alexs/pen/MWjrRMy). The credits from HTMl and CSS files, all goes to [Mitali](https://code.sololearn.com/WueOp7TSMqV5/#html)
+Use JS to fix a record player and save Christmas! Here it goes the live [link](https://codepen.io/11-alexs/pen/MWjrRMy). The credits for the HTML and CSS files, goes to [Mitali](https://code.sololearn.com/WueOp7TSMqV5/#html)
 
 PS.: Codepen doesn't let me add the songs or the pictures, but you can check all files here on [GitHub](https://github.com/11-AleXS/University-Projects/tree/master/DESENVOLVIMENTO-WEB-FRONT-END/Vitrola-natalina-em-JS)
 
