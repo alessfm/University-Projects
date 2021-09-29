@@ -2,7 +2,7 @@
 
   <p>📚<code>University Projects</code><p>
 
-  Works made on college [UniFAP](https://www.fapce.edu.br/index.html)
+  Trabalhos feitos na universidade [UniFAP](https://www.fapce.edu.br/index.html)
 </div>
 
 ***
